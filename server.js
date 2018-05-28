@@ -29,6 +29,9 @@ app.get('/', (req, res) => {
     res.json({"message": "Welcome to main Rest Api based on Mongoose."});
 });
 
+// Require routes
+require('./app/routes/product.routes.js')(app);
+
 // listen for requests
 app.listen(3000, () => {
     console.log("Server is listening on port 3000");
