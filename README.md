@@ -1,4 +1,4 @@
-# social-media
+# node-rest-api
 A demonstration of an API based on mongoose.
 
 ## Getting Started
@@ -11,17 +11,22 @@ $ npm install
 Use curl or postman chrome extension to test the API
 
 
-###### GET Feed
+###### Hello World
+```
+curl -i http://localhost:3000
+```
+
+###### GET Products
+```
+curl -i http://localhost:3000/products
+```
+
+###### GET Product
 ```
 TODO...
 ```
 
-###### GET Friends
-```
-TODO...
-```
-
-###### POST Status
+###### POST Product
 ```
 TODO...
 ```
