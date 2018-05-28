@@ -11,7 +11,7 @@ $ npm install
 Use curl or postman chrome extension to test the API
 
 
-###### Hello World
+###### Welcome
 ```
 curl -i http://localhost:3000
 ```
@@ -23,16 +23,18 @@ curl -i http://localhost:3000/products
 
 ###### GET Product
 ```
-TODO...
+curl -i http://localhost:3000/products/{{ID}}
 ```
 
 ###### POST Product
 ```
-TODO...
+$ curl -X POST -H "Content-Type: application/json" \
+-d '{"name":"Sabonete Líquido","price":"6.50"}' \
+-i http://localhost:3000/products
 ```
 
 ## Frameworks
-* TODO...
+* [Express](https://expressjs.com/ "Express Framework") is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
 ## Author
 Gustavo Zanoni - 
